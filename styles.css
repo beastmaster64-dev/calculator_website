@@ -4,18 +4,43 @@
     
 }
 
+.header{
+    text-align: center;
+}
+
 .calculator-container{
+    margin: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.input-screen{
 
+.input-screen{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .buttons{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 20px;
+
+}
+
+button{
+    width: 30px;
+}
+
+.operator-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.operator-container .operators{
+    display: flex;
 }
